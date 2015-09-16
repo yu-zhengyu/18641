@@ -1,0 +1,15 @@
+This is the source code file:
+driver/driver.java		// The main file, you can run the routine in this file
+
+exception/Overrecordnum.java	// The exception, would throw when the number of record 				// over 40
+model/Student.java		// The student class file. 	
+
+Util/Display.java		// A abstract class, would be extended by 						// DisplayStudentclass
+
+Util/DisplayStudent.java	// a class extends Display class, it can print all 					// information about student
+
+Util/Printstatis.java		// interface, support other class print statistic 					// information function
+
+Util/Statistics.java		// compute the highest, lowest and average scores from 					// record
+
+Util/Util.java			// read record from .txt file and extends DisplayStduent 				// class, so that it also can print all information.
