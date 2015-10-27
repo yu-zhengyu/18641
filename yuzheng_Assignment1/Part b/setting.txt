@@ -1,0 +1,84 @@
+Test case 1. When the ParkedVehicle is with in the parking time purchased.
+The specific situation of Car, police officer and parking meter is:
+
+Car
+make: China
+Model: BMW
+Color: Red
+LisenceNumber: PAM205
+parkingMinute: 50
+
+Parking meter
+purchaseMinute: 60
+
+PoliceOfficer
+name: Joey
+badge Number: MP95213
+—-----------------------------------------------------------------------
+Test case 2. When the ParkedVehicle just in the parking time purchased.
+The specific situation of Car, police officer and parking meter is:
+
+Car
+make: USA
+Model: BENZ
+Color: Black
+LisenceNumber: PDH213
+parkingMinute: 60
+
+Parking meter
+purchaseMinute: 60
+
+PoliceOfficer
+name: Matt
+badge Number: HB24213
+—-----------------------------------------------------------------------
+Test case 3. When the ParkedVehicle out of the parking time purchased.
+The specific situation of Car, police officer and parking meter is:
+
+Car
+make: AUS
+Model: BLUCK
+Color: White
+LisenceNumber: 234FG
+parkingMinute: 70
+
+Parking meter
+purchaseMinute: 60
+
+PoliceOfficer
+name: Herry
+badge Number: PO3913
+—-----------------------------------------------------------------------
+Test case 4. when the Ticketing under 1 hour.
+The specific situation of Car, police officer and parking meter is:
+
+Car
+make: JPN
+Model: NISSANA
+Color: Pink
+LisenceNumber: 21EFS
+parkingMinute: 20
+
+Parking meter
+purchaseMinute: 0
+
+PoliceOfficer
+name: Pet
+badge Number: IO3432
+—-----------------------------------------------------------------------
+Test case 5. when the Ticketing more than 1 hour.
+The specific situation of Car, police officer and parking meter is:
+
+Car
+make: GER
+Model: LOS
+Color: Green
+LisenceNumber: RF3131
+parkingMinute: 70
+
+Parking meter
+purchaseMinute: 0
+
+PoliceOfficer
+name: Joe
+badge Number: UI2134

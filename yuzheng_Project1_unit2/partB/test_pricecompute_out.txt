@@ -1,0 +1,48 @@
+Test: test the set choice, and show the final price of the car base on choice.
+--------------------------------------------------------------------------------
+The model name is: Focus Wagon ZTW
+The basic price is: 18864.0
+
+Color
+--------------------
+Fort Knox Gold Clearcoat Metallic: $0.0
+Liquid Grey Clearcoat Metallic: $0.0
+Infra-Red Clearcoat: $0.0
+Grabber Green Clearcoat Metallic: $0.0
+Sangria Red Clearcoat Metallic: $0.0
+French Blue Clearcoat Metallic: $0.0
+Twilight Blue Clearcoat Metallic: $0.0
+CD Silver Clearcoat Metallic: $0.0
+Pitch Black Clearcoat: $0.0
+Cloud 9 White Clearcoat: $0.0
+
+Transmission
+--------------------
+automatic: $0.0
+standard: $-815.0
+
+Brakes/Traction Control
+--------------------
+standard: $0.0
+ABS: $400.0
+ABS with Advance Tran: $1625.0
+
+Side Impact Air Bags
+--------------------
+none: $0.0
+selected: $350.0
+
+Power Moonroof
+--------------------
+none: $0.0
+selected: $595.0
+
+----------------------------------
+The original basic price is: 18864.0
+Here are choices the user selected:
+Fort Knox Gold Clearcoat Metallic	Price: 0.0
+standard	Price: -815.0
+ABS	Price: 400.0
+selected	Price: 350.0
+selected	Price: 595.0
+The total price is: 19394.0

@@ -1,0 +1,4 @@
+Here is the information about the file:
+student.txt		// student information file, the number of records is 40
+studentless40.txt	// student information file, the number of records is less than 40
+studentmore40.txt	// student information file, the number of records is more than 40

@@ -1,0 +1,5 @@
+Here is the information about the file:
+FordZTW.txt		// automotive information file.
+			// Including all configuration of the automotive. The routine 				// would read it and build a automotive.
+
+auto.ser		// The Serializable file. routine would also read it to build the 			// automotive 

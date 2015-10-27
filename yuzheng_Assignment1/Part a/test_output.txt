@@ -1,0 +1,49 @@
+Test case 1: 
+The initial facing up is: tails
+The 1 times facing up is: heads
+The 2 times facing up is: tails
+The 3 times facing up is: heads
+The 4 times facing up is: heads
+The 5 times facing up is: heads
+The 6 times facing up is: heads
+The 7 times facing up is: heads
+The 8 times facing up is: heads
+The 9 times facing up is: heads
+The 10 times facing up is: tails
+The 11 times facing up is: tails
+The 12 times facing up is: tails
+The 13 times facing up is: heads
+The 14 times facing up is: tails
+The 15 times facing up is: tails
+The 16 times facing up is: tails
+The 17 times facing up is: tails
+The 18 times facing up is: heads
+The 19 times facing up is: tails
+The 20 times facing up is: heads
+The number of heads is:11
+The number of tails is:9
+—-------------------------------
+Test case 2: 
+The initial facing up is: tails
+The 1 times facing up is: tails
+The 2 times facing up is: heads
+The 3 times facing up is: heads
+The 4 times facing up is: heads
+The 5 times facing up is: tails
+The 6 times facing up is: heads
+The 7 times facing up is: heads
+The 8 times facing up is: heads
+The 9 times facing up is: heads
+The 10 times facing up is: tails
+The 11 times facing up is: heads
+The 12 times facing up is: heads
+The 13 times facing up is: tails
+The 14 times facing up is: tails
+The 15 times facing up is: tails
+The 16 times facing up is: tails
+The 17 times facing up is: heads
+The 18 times facing up is: tails
+The 19 times facing up is: tails
+The 20 times facing up is: heads
+The number of heads is:11
+The number of tails is:9

@@ -1,0 +1,4 @@
+This is the source code file:
+test.java	// main file, you can test the routine in this file
+Coin.java	// The coin class file
+Simulation.java	// simulation class file, it would toss the coin

@@ -1,0 +1,43 @@
+Client Starting.......
+Client has started, please input what you want to do...
+Server: Have connected to 2222
+Here is the option you can choose: 
+1. Upload
+2. Configure
+0. Quit
+1
+Server: Got the upload order, please input the file name: 
+Focus.Properties
+Server: System has got the file Focus.Properties
+Server: The car is built successfully!!!
+Here is the option you can choose: 
+1. Upload
+2. Configure
+0. Quit
+1
+Server: Got the upload order, please input the file name: 
+Toyota.Properties
+Server: System has got the file Toyota.Properties
+Server: The car is built successfully!!!
+Here is the option you can choose: 
+1. Upload
+2. Configure
+0. Quit
+1
+Server: Got the upload order, please input the file name: 
+GTR.txt
+Server: System has got the file GTR.txt
+Server: The car is built successfully!!!
+Here is the option you can choose: 
+1. Upload
+2. Configure
+0. Quit
+2
+Server: Get the configuration oder!!
+Server: Sent the AutoList, please read it
+Here is list about our car model
+----------------------------------
+0. Focus Wagon ZTW
+1. Toyota Prius
+2. Nissan GTR
+Please input the model you want to configure(only number): 

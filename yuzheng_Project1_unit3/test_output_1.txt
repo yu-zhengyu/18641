@@ -1,0 +1,49 @@
+This is the test file, first time, we remove synchronized method to do the Object Locking usage. And then we run the routine serval times, and pick up one of them. 
+
+For this test, we modify the updateOptionPrice function. We change it as each time we update the option price, it would add $1000 for this item. And we change the transmission automatic option item 3 times, it should be 3000 in real, but it only add $2000 finally.
+
+--------------------------------------------------------------------------------
+ThreadID: 3	optionSet: Color	option: French Blue Clearcoat Metallic	option new name: zzzzz
+ThreadID: 2	optionSet: Color	option: zzzzz	option new name: gggggggggg
+ThreadID: 1	optionSet: Color	option: Infra-Red Clearcoat	option new name: zzzzz
+ThreadID: 4	optionSet: Transmission	option: automatic	option new price: 1000.0
+ThreadID: 6	optionSet: Transmission	option: automatic	option new price: 1000.0
+ThreadID: 5	optionSet: Transmission	option: automatic	option new price: 1000.0
+
+The model name is: Focus Wagon ZTW
+The basic price is: 18864.0
+
+Color
+--------------------
+Fort Knox Gold Clearcoat Metallic: $0.0
+Liquid Grey Clearcoat Metallic: $0.0
+zzzzz: $0.0
+Grabber Green Clearcoat Metallic: $0.0
+Sangria Red Clearcoat Metallic: $0.0
+gggggggggg: $0.0
+Twilight Blue Clearcoat Metallic: $0.0
+CD Silver Clearcoat Metallic: $0.0
+Pitch Black Clearcoat: $0.0
+Cloud 9 White Clearcoat: $0.0
+
+Transmission
+--------------------
+automatic: $2000.0
+standard: $-815.0
+
+Brakes/Traction Control
+--------------------
+standard: $0.0
+ABS: $400.0
+ABS with Advance Tran: $1625.0
+
+Side Impact Air Bags
+--------------------
+none: $0.0
+selected: $350.0
+
+Power Moonroof
+--------------------
+none: $0.0
+selected: $595.0
+

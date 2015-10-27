@@ -1,0 +1,98 @@
+Client Starting.......
+Client has started, please input what you want to do...
+Server: Have connected to 2222
+Here is the option you can choose: 
+1. Upload
+2. Configure
+0. Quit
+1
+Server: Got the upload order, please input the file name: 
+Focus.Properties
+Server: System has got the file Focus.Properties
+Server: The car is built successfully!!!
+Here is the option you can choose: 
+1. Upload
+2. Configure
+0. Quit
+2
+Server: Get the configuration oder!!
+Server: Sent the AutoList, please read it
+Here is list about our car model
+----------------------------------
+0. Focus Wagon ZTW
+Please input the model you want to configure(only number): 
+0
+You choose the model: Focus Wagon ZTW
+Server: Transfer AutoMobile done!
+Now, choosing the option you like, please input the number:
+Color
+--------------------
+0. Fort Knox Gold Clearcoat Metallic: $0.0
+1. Liquid Grey Clearcoat Metallic: $0.0
+2. Liquid Grey Clearcoat Metallic: $0.0
+3. Infra-Red Clearcoat: $0.0
+4. Grabber Green Clearcoat Metallic: $0.0
+5. Sangria Red Clearcoat Metallic: $0.0
+6. French Blue Clearcoat Metallic: $0.0
+7. Twilight Blue Clearcoat Metallic: $0.0
+8. CD Silver Clearcoat Metallic: $0.0
+9. Cloud 9 White Clearcoat: $0.0
+
+Choose one of above, input number: 
+1
+OK, we got it
+
+Transmission
+--------------------
+0. Automatic: $0.0
+1. Standard: $-815.0
+
+Choose one of above, input number: 
+1
+OK, we got it
+
+Brakes/Traction Control
+--------------------
+0. Standard: $0.0
+1. ABS: $400.0
+2. ABS with Advance Trac: $1625.0
+
+Choose one of above, input number: 
+1
+OK, we got it
+
+Side Impact Airbags
+--------------------
+0. None: $0.0
+1. Selected: $350.0
+
+Choose one of above, input number: 
+1
+OK, we got it
+
+Power Moonroof
+--------------------
+0. None: $0.0
+1. Selected: $595.0
+
+Choose one of above, input number: 
+1
+OK, we got it
+
+Configuration was done, here is the information:
+The model name is: Focus Wagon ZTW
+The basic price is: 18445.0
+
+Here are choices the user selected:
+Color: Liquid Grey Clearcoat Metallic	Price: 0.0
+Transmission: Standard	Price: -815.0
+Brakes/Traction Control: ABS	Price: 400.0
+Side Impact Airbags: Selected	Price: 350.0
+Power Moonroof: Selected	Price: 595.0
+The total price is: 18975.0
+--------------------------
+Here is the option you can choose: 
+1. Upload
+2. Configure
+0. Quit
+0

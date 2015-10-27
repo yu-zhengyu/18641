@@ -1,0 +1,114 @@
+AutoMobile with Database Program
+-------------------------------------
+Create the DataBase with no Data
+Success connect Mysql server!
+Create DATABASE is done!
+-------------------------------------
+Add Basic AutoMobile Information Into Database
+-------------------------------------
+Success connect Mysql server!
+Focus Wagon ZTW successfully was added into the database
+Add data into DATABASE is done!
+-------------------------------------
+Success connect Mysql server!
+Nissan GTR successfully was added into the database
+Add data into DATABASE is done!
+-------------------------------------
+-------------Show The All Table--------
+Automobile Table
+AutoId | AutoName | BasePrice
+-------------------------------------
+0 | Focus Wagon ZTW | 18864
+1 | Nissan GTR | 500
+OptionSet Table
+OpSetID | OpSetName | AutoId
+-------------------------------------
+0 | Color | 0
+1 | Transmission | 0
+2 | Brakes/Traction Control | 0
+3 | Side Impact Airbags | 0
+4 | Power Moonroof | 0
+5 | Color | 1
+6 | Transmission | 1
+7 | Brakes/Traction Control | 1
+8 | Side Impact Airbags | 1
+9 | Power Moonroof | 1
+Option Table
+OptionId | OptionName | OptionPrice | OptionSetId | AutoId
+-------------------------------------
+0 | Fort Knox Gold Clearcoat Metallic | 0 | 0 | 0
+1 | Liquid Grey Clearcoat Metallic | 0 | 0 | 0
+2 | Infra-Red Clearcoat | 0 | 0 | 0
+3 | Grabber Green Clearcoat Metallic | 0 | 0 | 0
+4 | Sangria Red Clearcoat Metallic | 0 | 0 | 0
+5 | French Blue Clearcoat Metallic | 0 | 0 | 0
+6 | Twilight Blue Clearcoat Metallic | 0 | 0 | 0
+7 | CD Silver Clearcoat Metallic | 0 | 0 | 0
+8 | Pitch Black Clearcoat | 0 | 0 | 0
+9 | Cloud 9 White Clearcoat | 0 | 0 | 0
+10 | automatic | 0 | 1 | 0
+11 | standard | -815 | 1 | 0
+12 | standard | 0 | 2 | 0
+13 | ABS | 400 | 2 | 0
+14 | ABS with Advance Tran | 1625 | 2 | 0
+15 | none | 0 | 3 | 0
+16 | selected | 350 | 3 | 0
+17 | none | 0 | 4 | 0
+18 | selected | 595 | 4 | 0
+19 | Red | 0 | 5 | 1
+20 | White | 0 | 5 | 1
+21 | Green | 0 | 5 | 1
+22 | automatic | 0 | 6 | 1
+23 | standard | -300 | 6 | 1
+24 | standard | 0 | 7 | 1
+25 | ABS | 400 | 7 | 1
+26 | none | 0 | 8 | 1
+27 | selected | 350 | 8 | 1
+28 | none | 0 | 9 | 1
+29 | selected | 595 | 9 | 1
+
+-------------------------------------
+Delete AutoMobile Information Into Database
+-------------------------------------
+Success connect Mysql server!
+Delete the Focus Wagon ZTW from DATABASE is done!
+-------------------------------------
+-------------Show The All Table--------
+Automobile Table
+AutoId | AutoName | BasePrice
+-------------------------------------
+1 | Nissan GTR | 500
+OptionSet Table
+OpSetID | OpSetName | AutoId
+-------------------------------------
+5 | Color | 1
+6 | Transmission | 1
+7 | Brakes/Traction Control | 1
+8 | Side Impact Airbags | 1
+9 | Power Moonroof | 1
+Option Table
+OptionId | OptionName | OptionPrice | OptionSetId | AutoId
+-------------------------------------
+19 | Red | 0 | 5 | 1
+20 | White | 0 | 5 | 1
+21 | Green | 0 | 5 | 1
+22 | automatic | 0 | 6 | 1
+23 | standard | -300 | 6 | 1
+24 | standard | 0 | 7 | 1
+25 | ABS | 400 | 7 | 1
+26 | none | 0 | 8 | 1
+27 | selected | 350 | 8 | 1
+28 | none | 0 | 9 | 1
+29 | selected | 595 | 9 | 1
+
+-------------------------------------
+Update AutoMobile BasePrice from Database
+-------------------------------------
+Success connect Mysql server!
+Update data from DATABASE is done!
+-------------------------------------
+-------------Show The AutoMobile Table--------
+Automobile Table
+AutoId | AutoName | BasePrice
+-------------------------------------
+1 | Nissan GTR | 99999

@@ -1,0 +1,162 @@
+In this file, these are all output result from routine, we would divide the output into 3 situation: the number of record is 40, the number of record is less than 40, the number of record is more than 40, here are the results from these 3 cases.
+————————————————————————————————————-----------------------------------------------------
+
+Test case 1: The number of record is 40:
+
+Here is the whole information of students
+Stud	Qu1	Qu2	Qu3	Qu4	Qu5	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+Here are low score about five times quizs
+Qu1: 52
+Qu2: 7
+Qu3: 20
+Qu4: 77
+Qu5: 30
+Here are highest score about five times quizs
+Qu1: 100
+Qu2: 45
+Qu3: 100
+Qu4: 90
+Qu5: 70
+Here are Average score about five times quizs
+Qu1: 81.0
+Qu2: 30.0
+Qu3: 72.0
+Qu4: 81.0
+Qu5: 43.0
+
+-----------------------------------------------------------------------------------------
+
+Test case 2: The number of record is more than 40:
+
+The number of records is over
+We would only take first 40 student records
+Here is the whole information of students
+Stud	Qu1	Qu2	Qu3	Qu4	Qu5	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+2134	90	36	90	77	30	
+Here are low score about five times quizs
+Qu1: 52
+Qu2: 7
+Qu3: 20
+Qu4: 77
+Qu5: 30
+Here are highest score about five times quizs
+Qu1: 100
+Qu2: 45
+Qu3: 100
+Qu4: 90
+Qu5: 70
+Here are Average score about five times quizs
+Qu1: 85.0
+Qu2: 32.0
+Qu3: 66.0
+Qu4: 82.0
+Qu5: 45.0
+
+-----------------------------------------------------------------------------------------
+
+Test case 3: The number of record is less than 40:
+
+Here is the whole information of students
+Stud	Qu1	Qu2	Qu3	Qu4	Qu5	
+1234	52	7	100	78	34	
+2134	90	36	90	77	30	
+3124	100	45	20	90	70	
+1234	52	7	100	78	34	
+Here are low score about five times quizs
+Qu1: 52
+Qu2: 7
+Qu3: 20
+Qu4: 77
+Qu5: 30
+Here are highest score about five times quizs
+Qu1: 100
+Qu2: 45
+Qu3: 100
+Qu4: 90
+Qu5: 70
+Here are Average score about five times quizs
+Qu1: 73.0
+Qu2: 23.0
+Qu3: 77.0
+Qu4: 80.0
+Qu5: 42.0
+

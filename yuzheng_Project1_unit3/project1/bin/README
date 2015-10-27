@@ -1,0 +1,9 @@
+This is the source code file:
+driver/driver.java		// The main file, you can run the routine in this file
+
+model/Automotive.java		// The Automotive class file.
+
+model/OptionSet.java		// The option set class file. 
+				/  It has a inner class calls option
+
+util/FileIO.java		// File IO file. Read the data from txt file. Also would 				// serialize and deserialize the object

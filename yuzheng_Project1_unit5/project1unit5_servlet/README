@@ -1,0 +1,19 @@
+Here is the information about the file:
+GTR.txt				// automotive information file.
+				// Including all configuration of the automotive. The routine would read it and build a automotive.
+
+default.txt			// default automobile information file, when user input wrong file name, routine would load this file to build the Auto
+
+Focus.Properties		// it a Focus car model information file, client can read it.
+
+Toyota.Properties		// it a Toyota car model information file, client can read it.
+
+test_output1.txt		// test result for step 3. Make sure that Properties file created in client is uploaded, parsed in server and then added in LinkHashMap object. You should upload multiple models for testing purposes.
+
+test_output2.txt		// test result for step 4. Prompts the user for available models.Allows the user to select a model and enter its respective options. And Displays the selected options for a class.
+
+log.txt				// exception log file
+
+ClassDiagram.png		// class diagram for client
+
+WebContent			// all tsp and html file

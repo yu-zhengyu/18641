@@ -1,0 +1,19 @@
+Test case: when the input file missing one of the option price, it would let user
+input a new option price;
+--------------------------------------------------------------------------------
+
+
+The error number is: noOptionPrice
+The error is: Miss option price
+The option set name is not exist, please input a new option set name: 
+3123
+The problem is fixed
+----------------------
+The model name is: Focus Wagon ZTW
+The basic price is: 18864.0
+
+Color
+--------------------
+Fort Knox Gold Clearcoat Metallic: $3123.0
+Liquid Grey Clearcoat Metallic: $0.0
+Infra-Red Clearcoat: $0.0

@@ -1,0 +1,29 @@
+This is the source code file:
+driver/driver.java		// The main file, you can run the routine in this file
+
+model/Automotive.java		// The Automotive class file.
+
+model/OptionSet.java		// The option set class file. 
+				/  It has a inner class calls option
+
+util/FileIO.java		// File IO file. Read the data from txt file. Also would 				// serialize and deserialize the object
+
+exception/AutoException.java	// The customer exception class file
+
+exception/ExceptionEnumerator.java	// Support the enum type of Exception
+
+exception/Fix1to100.java	// Provide the fix specific problem function
+
+adapter/BuildAuto.java		// a class, extend ProxyAutomobile.java and implements CreateAuto, UpdateAuto, FixAuto interface, but it has no specific code
+
+adapter/CreateAuto.java		// a interface, can build and print Auto
+
+adapter/FixAuto.java		// interface, has fix function to fix problem
+
+adapter/ProxyAutomobile.java	// abstract class, implement all function from CreateAuto, UpdateAuto, FixAuto
+
+adapter/UpdateAuto.java		// interface, has function to update option
+
+scale/EditOptions.java		// it a class extends Thread class, handle the multiple thread issue.
+
+adapter/MultiEditOption		// interface, provide function about update option price and name within the multithread situation.

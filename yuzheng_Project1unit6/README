@@ -1,0 +1,25 @@
+This time, our project just focus on update the project1unit6_Server, the  project1unit6_servlet just same as unit5, it does not change.
+
+Here are some information about the file:
+
+project1unit6_servlet	// The sources code folder about the Servlet, you can import it into your eclipse.
+
+project1unit6_Server	// The sources code folder about the Server, you can import it into your eclipse.
+
+Documentation.pdf	// The detail information about the project1 unit4. It has all 			// class information and function information.
+
+Lessons Learned In 18641 Project 1.PDF	// 50 answers for what I learn from project.
+
+How to Run the project
+1. Import the project1_unit6Server Database Project into Eclipse.
+2. Run the local Database.
+3. import jar package: mysql-connector-java-5.1.37-bin.jar (Since If I add the jar file the google email server would reject my email, so you have do download it by yourself, sorry)
+4. Run Driver Class.
+
+PS: 
+1. This project, what I focus on is changing the code in project1_unit6Server, project1_unit6Servlet is the same as unit5.
+2. you have to change the username and password according to your database in the DataBaseID.java(package util) and Driver.java(package driver).
+3. you have to add the JDBC jar package into your eclipse on this project, the jar I have put on the folder.
+
+
+

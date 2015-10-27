@@ -1,0 +1,1 @@
+UPDATE AutoMobileConfiguration.Automobile SET BasePrice =? WHERE (AutoName=?);

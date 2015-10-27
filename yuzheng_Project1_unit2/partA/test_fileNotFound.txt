@@ -1,0 +1,11 @@
+Test case: When the input file name is not exist, the system would load a default correct file.
+--------------------------------------------------------------------------------
+
+Since the file name is not exist. So we would load a default file.
+The model name is: None
+The basic price is: 0.0
+
+None set
+--------------------
+Noneoption: $0.0
+

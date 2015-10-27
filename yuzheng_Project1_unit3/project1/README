@@ -1,0 +1,19 @@
+Here is the information about the file:
+FordZTW.txt			// automotive information file.
+				// Including all configuration of the automotive. The routine 			// would read it and build a automotive.
+
+auto.ser			// The Serializable file. routine would also read it to build the automotive 
+
+default.txt			// default automobile information file, when user input wrong file name, routine would load this file to build the Auto
+
+FordZTWmissopname.txt		// when we want to test the handle: missing option name, we can load this file
+
+FordZTWmissopprice.txt		// when we want to test the handle: missing option price, we can load this file
+
+FordZTWmissopsetname.txt	// when we want to test the handle: missing option set name, we can load this file
+
+FordZTWnobaseprice.txt		// when we want to test the handle: missing base price, we can load this file
+
+src				// the source code of the routine
+
+log.txt				// exception log file

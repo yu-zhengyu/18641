@@ -1,0 +1,18 @@
+Here are some information about the file:
+
+project1unit5_servlet	// The sources code folder about the Servlet, you can import it into your eclipse
+
+project1unit5_Server	// The sources code folder about the Server, you can import it into your eclipse
+
+Documentation.pdf	// The detail information about the project1 unit4. It has all 			// class information and function information.
+
+How to Run the project
+
+1. Import these two projects into Eclipse
+2. Run the server first(server.Server.java)
+3. Then run the client (client.CarModelOptionsIO)
+4. Use this client to upload several car model so that the servlet has something to present.
+5. Add the projectunit5_servlet project to your Tomcat server, and open the Tomcat
+6. visit the following page: http://localhost:8080/projectunit5_servlet. And you can see the pages that show the information about the car models which are just uploaded by the client to the server.
+
+PS: The more detail about the test I have shown on the Documentation.pdf, you can review it and save your time.

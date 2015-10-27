@@ -1,0 +1,4 @@
+SELECT AutoId FROM AutoMobileConfiguration.Automobile WHERE (AutoName=?);
+DELETE FROM AutoMobileConfiguration.AutoOption WHERE (AutoId=?);
+DELETE FROM AutoMobileConfiguration.OptionSet WHERE (AutoId=?);
+DELETE FROM AutoMobileConfiguration.Automobile WHERE (AutoId=?);

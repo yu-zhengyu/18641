@@ -1,0 +1,19 @@
+Test case: when the input file missing one of the option name, it would let user
+input a new option name;
+--------------------------------------------------------------------------------
+
+The error number is: noOptionName
+The error is: Miss option name
+The option set name is not exist, please input a new option set name: 
+zzzzzz
+
+The problem is fixed
+----------------------
+The model name is: Focus Wagon ZTW
+The basic price is: 18864.0
+
+Color
+--------------------
+Fort Knox Gold Clearcoat Metallic: $0.0
+Liquid Grey Clearcoat Metallic: $0.0
+zzzzzz: $0.0

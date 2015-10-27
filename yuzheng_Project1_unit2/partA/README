@@ -1,0 +1,12 @@
+Here are some information about the file:
+
+test_fileNotFound.txt		// test result file, test if routine cannot find the file
+
+test_missoptionname.txt		// test result file, test if the loading file misses the option name
+test_missoptionprice.txt	// test result file, test if the loading file misses the option price
+test_missoptionsetname.txt	// test result file, test if the loading file misses the option set name
+test_nobaseprice.txt		// test result file, test if the loading file misses the base price
+
+testCreat_output.txt		// test result file, test can we create the Auto through CreateAuto interface 
+testUpdate_output.txt		// test result file, test can we Update the Auto through CreateAuto interface 
+

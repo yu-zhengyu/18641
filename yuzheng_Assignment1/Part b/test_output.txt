@@ -1,0 +1,37 @@
+In this file, these are all output result from routine, the setting of each case, you can see them in the source code file or setting.txt file
+—-----------------------------------------------------------------------
+The test case 1:
+The Car: PAM205 have not expired
+—-----------------------------------------------------------------------
+The test case 2:
+The Car: PDH213 have not expired
+—-----------------------------------------------------------------------
+The test case 3:
+The car's time has expire, here is the message: 
+Make: AUS
+Model: BLUCK
+Color: White
+License Number: 234FG
+Total Fine: 25
+Policeofficer name: Herry
+policeofficer badge number: PO3913
+—-----------------------------------------------------------------------
+The test case 4:
+The car's time has expire, here is the message: 
+Make: JPN
+Model: NISSANA
+Color: Pink
+License Number: 21EFS
+Total Fine: 25
+Policeofficer name: Joe
+policeofficer badge number: UI2134
+—-----------------------------------------------------------------------
+The test case 5:
+The car's time has expire, here is the message: 
+Make: GER
+Model: LOS
+Color: Green
+License Number: RF3131
+Total Fine: 35
+Policeofficer name: Joe
+policeofficer badge number: UI2134
