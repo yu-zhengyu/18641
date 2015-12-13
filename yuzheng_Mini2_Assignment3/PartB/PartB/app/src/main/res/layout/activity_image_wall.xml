@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zhengyu.partb.ui.ImageWallActivity">
+
+    <TextView
+        android:id="@+id/imagewalltitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/imagewall"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imagewallview"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/imagewalltitle"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/imagelinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagewallview"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/imagebutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/image1" />
+
+        <Button
+            android:id="@+id/imagebutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/image2" />
+
+        <Button
+            android:id="@+id/imagebutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/image3" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/stud_edit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ID"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/q1_edit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stud_edit"
+        android:hint="@string/Q1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/q2_edit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q1_edit"
+        android:hint="@string/Q2"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/q3_edit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2_edit"
+        android:hint="@string/Q3"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/q4_edit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q3_edit"
+        android:hint="@string/Q4"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/q5_edit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q4_edit"
+        android:hint="@string/Q5"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q5_edit"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
+

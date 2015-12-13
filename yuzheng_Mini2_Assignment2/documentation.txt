@@ -1,0 +1,53 @@
+# Mini-2 Assignment 2
+Name : Yu Zheng
+Andrew ID : yuzheng
+
+# Platform(I used):
+	Operating System: OS X El Capitan 10.11
+	Java Version: JavaSE-1.7
+	Android API 21
+	Android Stdio 1.1.0
+
+This assignment is the Android App for calculating and saving mortgage.
+
+## Important file
+1. You can see the Page flow and the result detail on the Assignment2_Result_show.pdf
+2. You can see the ClassDigram in the ClassDiagram.jpg
+3. You can see the database information through test_output.txt, the file show the log about dataBase.
+
+How to Run the project:
+1. Import the Mortgage into Android Stdio;
+2. Run the Android Virtual Device (I use the Nexus One phone with API 21);
+3. Run the program, run your Android Virtual Device  and run the program on this virtual device.
+
+-----------------------------------------------------------------------------------------
+Below is the Package and class Description I focus on:
+
+(Package) com.example.zhengyu.mortgage
+	
+(package) exception
+	(class)UserException : user Exception, handle the exception when appear error on input
+
+(package) Model
+	(class)Calculator : The basic model, it will act as intermediary between UI and DB Layers.
+
+(package) Util 
+	(class)DatabaseConnector : used to create table, get one or all mortgage from database, insert one mortgage into database
+
+(package) UI
+	(class)Add_Mortgage : user can input the date in this Page, and the page would compute the result and store the data.
+	(class)MainActivity : main activity for this app, user can click the Button enter the Add_Mortgage Page
+	(class)ViewResult_Activity : user can view the result in this activity
+
+(xml): AndroidManifest.xml : for all activities information
+
+(Floder)
+	res:
+		(package)layout
+			(xml) : activity_main.xml : main page xml
+			(xml) : activity_add__mortgage.xml : add mortgage xml
+			(xml) : activity_veiw_result_.xml : view mortgage result xml
+	
+		(package)values
+			(xml)strings.xml : all strings id and value pair
+			

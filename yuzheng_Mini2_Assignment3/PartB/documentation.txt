@@ -1,0 +1,64 @@
+# Mini-2 Assignment 3 PartB
+Name : Yu Zheng
+Andrew ID : yuzheng
+
+# Platform(I used):
+	Operating System: OS X El Capitan 10.11
+	Java Version: JavaSE-1.7
+	Android API 21
+	Android Stdio 1.1.0
+
+This assignment is the Android App for Mini-2 Assignment 3 PartB
+
+## Important file
+1. You can see the Page flow and the result detail on the PartB_Resultshow.pdf
+2. You can see the ClassDiagram in the PartB_ClassDiagram.bmp
+3. You can see all Screen Shot in ScreenShot_B folder
+
+How to Run the project:
+1. Import the PartB into Android Stdio;
+2. Run the Android Virtual Device (I use the Nexus One phone with API 21);
+3. Run the program, run your Android Virtual Device  and run the program on this virtual device.
+
+-----------------------------------------------------------------------------------------
+(Folder) PartB include all code for this project 
+
+Below is the Package and class Description I focus on:
+
+(Package) com.example.zhengyu.partb
+	
+(package) exception
+	(class)UserException : user Exception, handle the exception when appear error on input
+
+
+(package) ui
+	(class)ButtonFragment : This is Button Fragment Class, show the 4 button on the main Activity 
+	(class)ContactFragment : Show all Contact information in this fragment, show on main Activity
+	(class)EmailActivity : Email Activity, user can enter in activity and send email to artist. 
+	(class)ImageFragment : Show artist icon fragment, it would show on main Activity
+	(class)ImageWallActivity : Image wall activity, user can review image through click Image1~3 buttons.
+	(class)MainActivity : Main page activity, includes three fragment: Image, Button and contact fragment.
+	(class)MusicActivity : Music page, user can play and pause music in this page
+	(class)VideoActivity : Video page, user can choose one of two vide, play and pause it.
+
+(xml): AndroidManifest.xml : for all activities information
+
+(Floder)
+	res:
+		(package)layout
+			(xml) : activity_email.xml : Email page xml
+			(xml) : activity_image_wall.xml : Image Wall page xml
+			(xml) : activity_main.xml : main page xml
+			(xml) : activity_music.xml : Music page xml
+			(xml) : activity_video.xml : Video page xml
+			(xml) : contactinfo.xml : Contact Information fragment xml, which use in Main Activity
+			(xml) : layoutimage.xml : Image show Fragment xml on Activity, which use in Main Activity
+			(xml) : layoutmain_button.xml : All Button Fragment xml, which use in Main Activity
+	
+		(package)values
+			(xml)strings.xml : all strings id and value pair
+		(package)raw
+			Includes 2 .mp3 files and 2 .mp4 file.
+		(package)drawable
+			Includes 3 images which would use in Image Wall Activity
+			

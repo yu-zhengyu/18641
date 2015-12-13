@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/whole_layout"
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:layout_below="@+id/title"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/table_linear"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stud"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/ID"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Q1"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Q2"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Q3"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Q4"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Q5"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_quiz"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></ListView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

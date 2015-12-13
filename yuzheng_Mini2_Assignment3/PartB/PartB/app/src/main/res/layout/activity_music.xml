@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zhengyu.partb.ui.MusicActivity">
+
+    <TextView
+        android:id="@+id/musictitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/music"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/mp3_1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/musictitle"
+        android:layout_marginTop="10dp"
+        android:text="@string/music1"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/music1playbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mp3_1text"
+        android:text="@string/play"
+
+        />
+
+    <Button
+        android:id="@+id/mp3pausebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mp3_1text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/music1playbutton"
+        android:text="@string/pause" />
+
+    <TextView
+        android:id="@+id/mp3_2text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music1playbutton"
+        android:text="@string/music2"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/music1playbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mp3_2text"
+        android:text="@string/play"
+
+        />
+
+    <Button
+        android:id="@+id/mp3pausebutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mp3_2text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/music1playbutton2"
+        android:text="@string/pause" />
+
+</RelativeLayout>

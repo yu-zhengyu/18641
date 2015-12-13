@@ -1,0 +1,46 @@
+# Mini-2 Assignment 4
+Name : Yu Zheng
+Andrew ID : yuzheng
+
+# Platform(I used):
+	Operating System: OS X El Capitan 10.11
+	Java Version: JavaSE-1.7
+	Android API 21
+	Android Stdio 1.1.0
+
+This assignment is the Android App for Mini-2 Assignment 4
+
+## Important file
+1. You can see the Page flow and the result detail on the Resultshow.pdf
+2. You can see the ClassDiagram in the ClassDiagram file
+3. You can see all Screen Shot in ScreenShot folder
+
+How to Run the project:
+1. Import the Assignment4 into Android Stdio;
+2. Run the Android Virtual Device (I use the Nexus One phone with API 21);
+3. Run the program, run your Android Virtual Device  and run the program on this virtual device.
+
+Note: In this project, I suggest you run the app in your real phone, since the GPS function can only work in real Android phone
+
+-----------------------------------------------------------------------------------------
+(Folder) Assignment4 include all code for this project 
+Below is the Package and class Description I focus on:
+
+(Package) com.example.zhengyu.assignment4
+	
+(package) exception
+	(class)UserException : When GPS and SMS server is not work, it would throw this exception. 
+
+(package) ui
+	(class)MainActivity : main activity for this app, in this class, I invoke the GPS server, the MainActivity would update the realtime location when the location is changed. Also, I invoke the SMS server, so that user can click button, send location information to a cell phone.  
+
+(xml): AndroidManifest.xml : for all activities information, add permission of SMS and GPS server
+
+(Floder)
+	res:
+		(package)layout
+			(xml) : activity_main.xml : main page xml
+	
+		(package)values
+			(xml)strings.xml : all strings id and value pair
+			

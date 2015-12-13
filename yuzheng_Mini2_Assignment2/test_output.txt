@@ -1,0 +1,14 @@
+11-05 22:14:18.715    2606-2621/com.example.zhengyu.mortgage D/OpenGLRenderer﹕ endAllStagingAnimators on 0xa6ec8400 (RippleDrawable) with handle 0xa6e429b0
+11-05 22:14:28.869    2606-2606/com.example.zhengyu.mortgage I/System.out﹕ Create
+11-05 22:14:28.899    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ Insert data into Databese
+11-05 22:14:28.903    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 1	fasflsajdf	123908.175	448.943	Dec, 2022
+11-05 22:14:28.903    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 2	zhengyu	1234425.032	4472.554	Dec, 2022
+11-05 22:14:28.903    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 3	zhentttt	1234425.032	4472.554	Dec, 2022
+11-05 22:14:28.903    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 4	zhefg	173797.461	482.771	Dec, 2029
+11-05 22:14:28.903    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 5	zheng	173797.461	482.771	Dec, 2029
+11-05 22:14:28.903    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 6	zheng	173797.461	482.771	Dec, 2029
+11-05 22:14:28.904    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 7	ggsdfgd	226990.985	9457.958	Dec, 2001
+11-05 22:14:28.904    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 8	fegrgege	2069797.393	14373.593	Dec, 2011
+11-05 22:14:28.904    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 9	tqetwertwet	132775200.896	481069.568	Dec, 2022
+11-05 22:14:28.904    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ 10	fsfasfas	95145381.562	344729.643	Dec, 2022
+11-05 22:14:28.904    2606-2606/com.example.zhengyu.mortgage D/DataBase﹕ Show Data successful

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PartA</string>
+    <string name="title">Part A</string>
+    <string name="action_settings">Settings</string>
+
+    <!--UI value -->
+    <string name="Q1">Q1</string>
+    <string name="Q2">Q2</string>
+    <string name="Q3">Q3</string>
+    <string name="Q4">Q4</string>
+    <string name="Q5">Q5</string>
+
+    <string name="view">View</string>
+    <string name="add">Add</string>
+    <string name="ID">Stud</string>
+    <string name="high">High Score</string>
+    <string name="low">Low Score</string>
+    <string name="ave">Average Score</string>
+    <string name="save">Save</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

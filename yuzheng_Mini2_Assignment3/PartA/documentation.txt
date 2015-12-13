@@ -1,0 +1,56 @@
+# Mini-2 Assignment 3 PartA
+Name : Yu Zheng
+Andrew ID : yuzheng
+
+# Platform(I used):
+	Operating System: OS X El Capitan 10.11
+	Java Version: JavaSE-1.7
+	Android API 21
+	Android Stdio 1.1.0
+
+This assignment is the Android App for Mini-2 Assignment 3 PartA
+
+## Important file
+1. You can see the Page flow and the result detail on the PartA_Resultshow.pdf
+2. You can see the ClassDiagram in the PartA_ClassDiagram.png
+3. You can see all Screen Shot in ScreenShot_A folder
+
+How to Run the project:
+1. Import the PartA into Android Stdio;
+2. Run the Android Virtual Device (I use the Nexus One phone with API 21);
+3. Run the program, run your Android Virtual Device  and run the program on this virtual device.
+
+-----------------------------------------------------------------------------------------
+(Folder) PartA include all code for this project 
+Below is the Package and class Description I focus on:
+
+(Package) com.example.zhengyu.parta
+	
+(package) exception
+	(class)UserException : user Exception, handle the exception when appear error on input
+
+(package) model
+	(class)SingleScore : This is the basic student model, it includes Student ID and 5 times scores for this students.
+	(class)Statistics : This is class includes a ArrayList, it store all student, which is SingleScore class, also provide some computing function, such as find the highest score for each quiz. 
+
+(package) util 
+	(class)DatabaseConnector : used to create table, get one or all mortgage from database, insert one mortgage into database
+
+(package) ui
+	(class)AddData : user can input the date in this Page, includes student ID and 5 times scores, routine would save these data into database and ArrayList<SingleScore>.
+	(class)MainActivity : main activity for this app, user can click “ADD” enter addData fragment, and click view back to main fragment. The main activity show show all students’s score and show the statics. 
+	(class)List_Adapter : This is a Adapter class extends BasicAdapter class, it would help MainActivity show all students’s score Dynamically. 
+
+(xml): AndroidManifest.xml : for all activities information
+
+(Floder)
+	res:
+		(package)layout
+			(xml) : activity_main.xml : main page xml
+			(xml) : fragment_add_data.xml : add data fragment xml
+			(xml) : fragment_main.xml : Main Fragment xml file
+			(xml) : list_layout.xml : list view layout, can show all students’ information on this list.
+	
+		(package)values
+			(xml)strings.xml : all strings id and value pair
+			
